@@ -7,11 +7,11 @@
   flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
-.feature-icon {
+.card-list__icon {
   display: flex;
 }
 
-.rectangle {
+.card-list__rectangle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@
   border-radius: 4px;
 }
 
-.feature-title {
+.card-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -31,7 +31,7 @@
   margin-top: 30px;
 }
 
-.feature-text {
+.card-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

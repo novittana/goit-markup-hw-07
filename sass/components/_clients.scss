@@ -12,7 +12,7 @@
   height: 92px;
 }
 
-.client-link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,13 +30,13 @@
   }
 }
 
-.client-link .client-logo {
+.clients-list__link .clients-list__logo {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-logo {
+.clients-list__logo {
   fill: currentColor;
   .client-link:hover &,
   .client-link:focus & {
