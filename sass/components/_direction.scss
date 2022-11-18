@@ -9,9 +9,7 @@
 
 .direction-title {
   background: var(--direction-background-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include placing(flex, center, center);
   height: 70px;
   width: 100%;
   position: absolute;

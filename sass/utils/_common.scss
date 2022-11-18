@@ -12,20 +12,15 @@ body {
 }
 
 .section__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  @include font(36, 1.17, 700, 0.03);
   color: var(--second-title-color);
   text-align: center;
   margin-bottom: 50px;
 }
 
 .title {
-  font-size: 14px;
-  line-height: 1.14em;
+  @include font(14, 1.14, null, 0.03);
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--first-title-color);

@@ -1,9 +1,7 @@
 .social-network-list {
-  display: flex;
+ @include placing(flex, center, center);
   margin-top: 16px;
   gap: 10px;
-  justify-content: center;
-  align-items: center;
 }
 
 .soc-network-item {
@@ -16,10 +14,7 @@
   height: 100%;
   border: 0;
   border-radius: 50%;
-  display: flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include placing(flex, center, center);
  
   }
 

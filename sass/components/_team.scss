@@ -21,16 +21,11 @@
 }
 
 .team-members-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  @include font(16, 1.17, 500, 0.03);
   color: var(--second-title-color);
 }
 
 .team-position {
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font(null, 1.19, null, 0.03);
   margin-top: 10px;
 }
-

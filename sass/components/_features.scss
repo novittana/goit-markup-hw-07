@@ -12,9 +12,7 @@
 }
 
 .card-list__rectangle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include placing(flex, center, center);
   width: 270px;
   height: 120px;
   background-color: var(--middle-background-color);
@@ -22,18 +20,13 @@
 }
 
 .card-list__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(14, 1.14, 700, 0.03);
   text-transform: uppercase;
   color: var(--second-title-color);
   margin-top: 30px;
 }
 
 .card-list__text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(14, 1.71, null, 0.03);
   margin-top: 10px;
 }
